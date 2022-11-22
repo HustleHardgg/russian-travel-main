@@ -1,0 +1,35 @@
+.place__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    /* or 29px */
+    color: #FFFFFF;
+    grid-area: place__paragraph;
+    width: 484px;
+
+}
+
+@media(max-width: 1024px) {
+    .place__text {
+        max-width: 456px;
+    }
+}
+
+@media(max-width: 768px) {
+    .place__text {
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 163%;
+    }
+}
+
+@media(max-width: 320px) {
+    .place__text {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 163%;
+        margin-left: 16px;
+    }
+}

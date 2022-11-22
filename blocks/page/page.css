@@ -1,0 +1,35 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    outline: 3px solid red;
+    margin: 0 auto;
+    max-width: 1280px;
+    background-color: rgba(42, 44, 47, 1);
+    color: rgba(255, 255, 255, 1);
+    /*padding-left: 48px;
+    padding-right: 48px;*/
+}
+
+@media (max-width: 1280px) {
+    .page {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .page {
+        width: 1024px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page {
+        width: 768px;
+    }
+}
+
+@media (max-width: 320px) {
+    .page {
+        width: 320px;
+    }
+}

@@ -1,0 +1,17 @@
+.lead {
+    outline: 3px solid red;
+    justify-content: center;
+    display: flex;
+    margin-top: 56px;
+    flex-direction: column;
+    max-width: 984px;
+    max-height: 1005px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media (max-width:768px){
+    .lead {
+        margin-top: 48px;
+    }
+}
