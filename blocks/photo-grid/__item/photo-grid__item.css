@@ -1,5 +1,5 @@
 .photo-grid__item{
-    max-width: 284px;
+    width: 284px;
 }
 @media (max-width: 1024px) {
     .photo-grid__item {

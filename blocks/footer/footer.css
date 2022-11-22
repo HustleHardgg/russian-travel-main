@@ -1,7 +1,7 @@
 .footer {
     margin-top: 92px;
     margin-bottom: 24px;
-    outline: 3px solid red;
+   /*outline: 3px solid red;*/
     display: flex;
     flex-direction: row;
     margin-left: auto;
