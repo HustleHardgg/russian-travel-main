@@ -12,13 +12,13 @@
     line-height: 76px;
 }
 
-@media(max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .place__title {
         max-width: 440px;
     }
 }
 
-@media(max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .place__title {
         max-width: 340px;
         font-family: 'Inter';

@@ -12,7 +12,7 @@
     line-height: 58px;
 }
 
-@media (max-width:768px) {
+@media (min-width:321px) and (max-width:768px) {
     .intro__title {
         max-width: 720px;
     }

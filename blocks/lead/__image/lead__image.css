@@ -2,25 +2,25 @@
     margin-top: 64px;
 }
 
-@media (max-width:1024px) {
+@media (min-width: 769px) and (max-width:1024px) {
     .lead__image {
-        height: 580px;
-        width: 928px;
+        max-height: 100%;
+        max-width: 928px;
         margin-top: 56px;
     }
 }
 
-@media (max-width:768px) {
+@media (min-width:321px) and (max-width:768px) {
     .lead__image {
-        height: 480px;
-        width: 768px;
+        max-height: 100%;
+        max-width: 100%;
     }
 }
 
 @media (max-width:320px) {
     .lead__image {
-        height: 200px;
-        width: 320px;
+        max-height: 100%;
+        max-width: 100%;
         margin-top: 40px;
     }
 }

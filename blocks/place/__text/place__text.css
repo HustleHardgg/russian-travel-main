@@ -11,13 +11,13 @@
 
 }
 
-@media(max-width: 1024px) {
+@media(min-width: 769px) and (max-width: 1024px) {
     .place__text {
         max-width: 456px;
     }
 }
 
-@media(max-width: 768px) {
+@media(min-width: 321px) and (max-width: 768px) {
     .place__text {
         max-width: 352px;
         font-size: 16px;
