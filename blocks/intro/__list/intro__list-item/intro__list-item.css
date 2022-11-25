@@ -1,4 +1,4 @@
-.intro__list_item {
+.intro__list-item {
     font-family: 'Inter' sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -8,6 +8,6 @@
     color: #FFFFFF;
 }
 
-.intro__list_item:last-child {
+.intro__list-item:last-child {
     margin: 0 0 0 0;
 }
