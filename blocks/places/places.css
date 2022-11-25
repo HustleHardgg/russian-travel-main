@@ -4,7 +4,7 @@
     margin-top: 92px;
     margin-left: auto;
     margin-right: auto;
-   margin-bottom: 92px;
+    margin-bottom: 92px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 80px;
@@ -13,7 +13,6 @@
 @media(min-width: 769px) and (max-width: 1024px) {
     .places {
         max-width: 928px;
-        margin-bottom: 92px;
     }
 }
 

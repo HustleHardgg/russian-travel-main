@@ -16,7 +16,7 @@
     }
 }
  
-@media (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 321px) and (max-width: 768px) {
     .place {
         max-width: 720px;
         column-gap: 28px;

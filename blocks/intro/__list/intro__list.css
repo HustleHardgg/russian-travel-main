@@ -1,5 +1,5 @@
 .intro__list {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     margin-top: 33px;
     margin-bottom: 0;
     max-width: 690px;
@@ -14,14 +14,3 @@
 
 }
 
-@media (max-width:320px) {
-    .intro__list {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 18px;
-        /* or 150% */
-        color: #FFFFFF;
-    }
-}

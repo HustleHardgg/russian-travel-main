@@ -1,0 +1,13 @@
+.intro__list_item {
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    color: #FFFFFF;
+}
+
+.intro__list_item:last-child {
+    margin: 0 0 0 0;
+}

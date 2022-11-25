@@ -1,5 +1,6 @@
 .cover__subtitle {
-    width: 360px;
+  display: flex;
+    max-width: 360px;
     margin: 0;
     font-size: 18px;
     line-height: 22px;
@@ -12,6 +13,6 @@
     .cover__subtitle {
       width: 100%;
       font-size: 14px;
-      line-height: 18px;
+      line-height: 16px;
     }
   }

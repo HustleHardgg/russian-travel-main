@@ -1,6 +1,5 @@
 .footer__copyrigth {
-    
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -15,13 +14,10 @@
 @media (max-width: 320px) {
     .footer__copyrigth {
         margin-top: 16px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
         line-height: 14px;
         /* identical to box height, or 100% */
         text-align: start;
-        color: #FFFFFF;
+        margin: 16px 0 0;
+
     }
 }

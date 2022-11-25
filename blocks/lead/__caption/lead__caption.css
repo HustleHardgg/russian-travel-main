@@ -1,9 +1,7 @@
 .lead__caption {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     margin-top: 8px;
     width: 160px;
-    max-height: 14px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
