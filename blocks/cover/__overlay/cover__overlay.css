@@ -9,6 +9,8 @@
     background-size: cover;
     text-decoration: none;
     min-height:740px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .cover__overlay::before {
     content: '';
@@ -25,18 +27,27 @@
   .cover__overlay:hover::before  {
     opacity: 0.7;
   }
-  @media (min-width: 769px) and (max-width:1024px) {
-    .cover__overlay{
+     
+  @media screen and (max-width: 1279px) {
+    .cover__overlay {
+      max-width: 1024px;
+      padding: 0;
       min-height:640px;
+    }
   }
-  }
-  @media (min-width: 321px) and (max-width:768px) {
-    .cover__overlay{
+  
+  @media screen and (max-width: 1023px) {
+    .cover__overlay {
+      max-width: 768px;
+      margin-top: 88px;
       min-height:480px;
     }
   }
-  @media (max-width: 320px){
-  .cover__overlay{
-    min-height:200px;
+  
+  @media screen and (max-width: 767px) {
+    .cover__overlay {
+      max-width: 320px;
+      margin-top: 64px;
+      min-height:200px;
     }
   }

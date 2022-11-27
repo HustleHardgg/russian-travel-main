@@ -2,10 +2,9 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    grid-area: place__website;
 }
 
-@media(max-width: 320px) {
+@media(max-width: 767px) {
     .place__website {
         margin-left: 16px;
     }

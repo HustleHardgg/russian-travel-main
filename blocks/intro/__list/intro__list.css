@@ -1,9 +1,9 @@
 .intro__list {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     margin-top: 33px;
     margin-bottom: 0;
     max-width: 690px;
-    max-height: 90px;
+    
 
     font-weight: 700;
     font-size: 12px;

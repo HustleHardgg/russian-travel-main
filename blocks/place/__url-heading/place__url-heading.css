@@ -10,7 +10,7 @@
     color: #AAAAAA;
     margin-bottom: 12px;
 }
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .place__url-heading {
         line-height: 12px;
     }

@@ -1,4 +1,4 @@
-.header__links-item {
+.header__lang {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -11,13 +11,12 @@
     transition: opacity 1s ease-in-out;
 }
 
-.header__links-item:hover {
+.header__lang:hover {
     opacity: 0.5;
 }
 
-@media (max-width: 320px) {
-    .header__links-item{
-        font-weight: 400;
+@media (max-width: 767px) {
+    .header__lang {
         font-size: 18px;
         line-height: 20px;
     }
